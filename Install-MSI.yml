@@ -11,4 +11,4 @@
     - name: Install MSI
       win_msi: 
         path: 'C:\windows\temp\httpd-2.2.25-win32-x86-no_ssl.msi'
-        state: present
+        wait: true
