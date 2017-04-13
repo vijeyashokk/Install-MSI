@@ -5,5 +5,5 @@
   tasks:
     - name: Un- Install MSI
       win_msi: 
-        path: 'C:\Users\Administrator\Downloads\httpd-2.2.25-win32-x86-no_ssl.msi'
+        path: 'C:\windows\temp\httpd-2.2.25-win32-x86-no_ssl.msi'
         state: absent
